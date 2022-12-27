@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import React from "react";
 
 export default function useEvent(event, handler, passive = false) {
   useEffect(() => {
